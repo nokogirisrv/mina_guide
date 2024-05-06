@@ -141,10 +141,10 @@ Here, `~/keys/my-wallet` is the path to your private key.
 - For block production, add configuration (replace `<BLOCK_PRODUCER_KEY_PATH>`):
 
 ```bash
-MINA_PRIVKEY_PASS="My_V3ry_S3cure_Password" 
-LOG_LEVEL=Info 
-FILE_LOG_LEVEL=Debug 
-EXTRA_FLAGS=" --block-producer-key "
+MINA_PRIVKEY_PASS="PASSWORD"
+UPTIME_PRIVKEY_PASS="PASSWORD"
+EXTRA_FLAGS=" --limited-graphql-port 3095 --block-producer-key /root/keys/my-wallet --uptime-submitter-key /root/keys/my-wallet 
+--uptime-url https://uptime-backend.minaprotocol.com/v1/submit -insecure-rest-server --minimum-block-reward 700 --open-limited-graphql-port"
 ```
 
 - If not producing blocks, keep `~/.mina-env` empty.
