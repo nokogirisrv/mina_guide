@@ -220,3 +220,8 @@ mina client status
 10. Troubleshoot port issues causing prolonged Bootstrap state.
 
 11. With a synced node, explore advanced daemon features like Sending a payment, Staking & Delegating.
+
+# Leaderboards
+<https://uptime.minaprotocol.com>
+<https://minataur.net/uptime>
+<https://towerstake.com/mina-uptime-leaderboard>
