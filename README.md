@@ -223,5 +223,7 @@ mina client status
 
 # Leaderboards
 <https://uptime.minaprotocol.com>
+
 <https://minataur.net/uptime>
+
 <https://towerstake.com/mina-uptime-leaderboard>
