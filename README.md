@@ -102,7 +102,7 @@ For Ubuntu 18.04, 20.04, Debian 9, 10, 11:
 echo "deb [trusted=yes] http://packages.o1test.net $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/mina.list 
 sudo apt-get install --yes apt-transport-https 
 sudo apt-get update 
-sudo apt-get install --yes curl unzip mina-mainnet=1.3.1.2-25388a0
+sudo apt-get install -y curl unzip mina-mainnet=1.4.0-c980ba8
 ```
 
 2. Verify that the daemon is installed correctly: `mina version`
